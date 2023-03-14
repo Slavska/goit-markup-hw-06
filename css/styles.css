@@ -674,7 +674,6 @@ address {
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  transform: opacity(100%);
   transition: transform var(--transition-dur-and-func);
 }
 
@@ -758,7 +757,6 @@ address {
   position: absolute;
   top: 8px;
   left: 16px;
-  fill: var(primary-text-color-light-background);
   transition: fill var(--transition-dur-and-func);
 }
 
@@ -838,7 +836,6 @@ address {
 
 .modal-form-submit {
   align-self: center;
-  text-align: center;
   width: 169px;
   background: var(--secondary-color-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
