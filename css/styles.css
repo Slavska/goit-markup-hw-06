@@ -633,13 +633,9 @@ address {
   background-color: var(--primary-color-accent);
 }
 
-.footer-icon-form-field {
-  display: flex;
-  margin-left: 16px;
-}
-
 .footer-icon-form {
   fill: #ffffff;
+  margin-left: 16px;
 }
 /*/---------------------------FOOTER-----------------------*/
 
@@ -669,7 +665,7 @@ address {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 408px;
-  height: 576px;
+  height: 584px;
   border-radius: 4px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -717,12 +713,13 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   padding: 72px 24px 0 24px;
+  margin-bottom: 16px;
 }
 
 .modal-form {
   display: flex;
   flex-direction: column;
-  padding: 16px 24px;
+  padding: 0 24px 16px 24px;
 }
 
 .modal-form-field {
