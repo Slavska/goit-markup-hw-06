@@ -446,7 +446,6 @@ address {
   color: var(--secondary-color-accent);
   background: var(--secondary-light-background);
   border: 1px solid var(--secondary-text-color-dark-background);
-
   padding: 12px 24px;
   transition: background-color var(--transition-dur-and-func),
     color var(--transition-dur-and-func),
